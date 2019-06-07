@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    tools:context="com.example.lenovo.imagereader.Main3Activity">
+
+    <Button
+        android:id="@+id/choose_from_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="@color/colorAccent"
+        android:text="choose_from_gallery"
+        tools:context=".MainActivity"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:text="@+id/detected_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/detected_text"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/choose_from_gallery"
+        android:layout_margin="25dp"
+        android:layout_centerHorizontal="true"
+        android:background="#EEEEEE"
+        android:scrollbars="vertical"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorAccent"
+        android:text="Pause" />
+</RelativeLayout>
+
